@@ -25,7 +25,7 @@ const SignInForm = () => {
     setFormFields(defaultFormFields);
   };
 
-  // Locar com conta do Google
+  // Logar com conta do Google
   const signInWithGoogle = async () => {
     const { user } = await signInWithGooglePopup();
     await createUserDocumentFromAuth(user);
