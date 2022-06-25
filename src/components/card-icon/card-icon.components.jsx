@@ -10,6 +10,7 @@ const CardIcon = () => {
   const toggle = () =>{
     setIsOpen(!isOpen)
   }
+  console.log(toggle)
 
   return (
     <div onClick={toggle} className="cart-icon-container">
